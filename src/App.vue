@@ -8,6 +8,7 @@ import ComputedExample from './components/ComputedExample.vue'
 import EmitExample from './components/EmitExample.vue'
 import WatchExample from './components/WatchExample.vue'
 import WatchExample2 from './components/WatchExample2.vue'
+import FatherComponent from './components/PropsExample/FatherComponent.vue'
 </script>
 
 <template>
@@ -20,6 +21,7 @@ import WatchExample2 from './components/WatchExample2.vue'
   <EmitExample />
   <WatchExample />
   <WatchExample2 />
+  <FatherComponent />
 </template>
 
 <style scoped></style>
