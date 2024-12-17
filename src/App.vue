@@ -6,6 +6,7 @@ import ModelExample from './components/ModelExample.vue'
 import ForExample from './components/ForExample.vue'
 import ComputedExample from './components/ComputedExample.vue'
 import EmitExample from './components/EmitExample.vue'
+import WatchExample from './components/WatchExample.vue'
 </script>
 
 <template>
@@ -16,6 +17,7 @@ import EmitExample from './components/EmitExample.vue'
   <ForExample />
   <ComputedExample />
   <EmitExample />
+  <WatchExample />
 </template>
 
 <style scoped></style>
